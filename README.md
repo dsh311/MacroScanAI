@@ -70,3 +70,18 @@ Summary verdict, indicators, and detailed module-by-module analysis.
 5. You receive a **final verdict** and a list of **behavioral indicators**.
 
 ---
+
+## License
+
+This project is licensed under the **GNU GPL v3.0**.
+
+It also incorporates code originally licensed under the **Mozilla Public License 2.0**.
+
+Under Section 3.3 of the MPL-2.0, that code is redistributed under GPL-3.0 for combined distribution.
+
+- GPL-3.0: https://www.gnu.org/licenses/gpl-3.0.html  
+- MPL-2.0: https://www.mozilla.org/MPL/2.0/
+
+![GPLv3 License](https://img.shields.io/badge/License-GPLv3-blue.svg)
+
+---
