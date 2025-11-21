@@ -109,7 +109,7 @@ The tool also includes a **Code Visualization Navigator**, making it easy to exp
 
 ---
 
-## 🖼️ Screenshots
+## 🖼️ Screenshots of UI
 
 <p align="center">
   <img src="./docs/MacroNavigatorUI.png" width="70%" />
