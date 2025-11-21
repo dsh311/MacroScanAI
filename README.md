@@ -1,6 +1,6 @@
 # MacroScanAI
 **AI-Powered Macro Security Analyzer**  
-A cybersecurity tool that scans and classifies Office VBA macros using AI, detects suspicious or malicious behaviors (including obfuscation, encryption, and other threat-actor techniques), and provides an interactive code visualization interface with syntax hilighting.
+An AI-powered cybersecurity tool for scanning and classifying Office VBA macros. It detects malicious or suspicious behaviors such as obfuscation, encryption, and other threat-actor techniques, and includes an interactive code visualization interface with full syntax highlighting.
 
 <p align="center">
   <img src="./docs/MacroNavigatorUI.png" width="30%" />
