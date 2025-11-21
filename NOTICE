@@ -1,0 +1,38 @@
+MacroScanAI — Third-Party Notices
+=================================
+
+This project includes third-party components licensed under the
+Mozilla Public License Version 2.0 (MPL-2.0).
+
+Under Section 3.3 of the MPL-2.0, MPL-licensed components may be
+redistributed under the terms of the GNU General Public License Version 3
+(GPL-3.0) as part of this combined work. The upstream components remain
+available under their original MPL-2.0 license.
+
+-------------------------------------------------------------------------------
+Included Libraries (MPL-2.0)
+-------------------------------------------------------------------------------
+
+1. OpenMcdf
+   - License: Mozilla Public License 2.0
+   - Project Site: https://licenses.nuget.org/MPL-2.0
+   - Authors: ironfede, jeremy, visionaid
+
+2. OpenMcdf.Extensions
+   - License: Mozilla Public License 2.0
+   - Project Site: https://licenses.nuget.org/MPL-2.0
+   - Authors: OpenMcdf.Extensions contributors
+
+-------------------------------------------------------------------------------
+Mozilla Public License Version 2.0 Notice
+-------------------------------------------------------------------------------
+
+This Source Code Form is subject to the terms of the Mozilla Public License,
+v. 2.0. If a copy of the MPL was not distributed with this file, You can obtain
+one at https://mozilla.org/MPL/2.0/.
+
+-------------------------------------------------------------------------------
+
+No modifications have been made to the upstream license texts. Redistribution
+of this project does not grant any rights beyond those provided under the
+MPL-2.0 and the GPL-3.0.
