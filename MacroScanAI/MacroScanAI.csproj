@@ -1,0 +1,67 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Controls\TreeAndEditor\Assets\about.png" />
+    <None Remove="Controls\TreeAndEditor\Assets\openfolder.png" />
+    <None Remove="Controls\TreeAndEditor\Assets\savefile.png" />
+    <None Remove="Controls\TreeAndEditor\Assets\scan.png" />
+    <None Remove="Controls\TreeAndEditor\Assets\settings.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Controls\TreeAndEditor\Assets\about.png" />
+    <Resource Include="Controls\TreeAndEditor\Assets\file.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Controls\TreeAndEditor\Assets\file_dir.png" />
+    <Resource Include="Controls\TreeAndEditor\Assets\file_srp.png" />
+    <Resource Include="Controls\TreeAndEditor\Assets\file_vbaproject.png" />
+    <Resource Include="Controls\TreeAndEditor\Assets\file_vbascript_class.png" />
+    <Resource Include="Controls\TreeAndEditor\Assets\file_vbascript_form.png" />
+    <Resource Include="Controls\TreeAndEditor\Assets\file_vbascript_module.png" />
+    <Resource Include="Controls\TreeAndEditor\Assets\folder.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Controls\TreeAndEditor\Assets\file_vbascript.png" />
+    <Resource Include="Controls\TreeAndEditor\Assets\openfolder.png" />
+    <Resource Include="Controls\TreeAndEditor\Assets\savefile.png" />
+    <Resource Include="Controls\TreeAndEditor\Assets\scan.png" />
+    <Resource Include="Controls\TreeAndEditor\Assets\settings.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AvalonEdit" Version="6.3.1.120" />
+    <PackageReference Include="NetOfficeFw.VbaCompression" Version="3.0.1" />
+    <PackageReference Include="OpenAI" Version="2.7.0" />
+    <PackageReference Include="OpenMcdf" Version="3.0.3" />
+    <PackageReference Include="OpenMcdf.Extensions" Version="2.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MacroScanAI.Cli\MacroScanAI.Cli.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Notices\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Notices\NOTICE.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		<Link>NOTICE</Link>
+    </None>
+    <None Update="Notices\THIRD_PARTY_NOTICES.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		<Link>THIRD_PARTY_NOTICES.md</Link>
+    </None>
+  </ItemGroup>
+
+</Project>
